@@ -1,8 +1,11 @@
+
 ;; Window move
-(global-set-key (kbd "C-x <up>") 'windmove-up)
-(global-set-key (kbd "C-x <down>") 'windmove-down)
-(global-set-key (kbd "C-x <right>") 'windmove-right)
-(global-set-key (kbd "C-x <left>") 'windmove-left)
+;; TODO find a way to detect you're in 'terminal-mode', and if so,
+;; rebind window-navigation
+;; (global-set-key (kbd "C-x <up>") 'windmove-up)
+;; (global-set-key (kbd "C-x <down>") 'windmove-down)
+;; (global-set-key (kbd "C-x <right>") 'windmove-right)
+;; (global-set-key (kbd "C-x <left>") 'windmove-left)
 
 ;; Enable forward/backward word on OSX
 (global-set-key '[(meta right)] 'forward-word)
